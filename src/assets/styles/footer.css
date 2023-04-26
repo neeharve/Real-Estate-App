@@ -1,0 +1,42 @@
+.footer-section {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-list-item {
+    font-weight: bold;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-img-holder {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 2px #ccc;
+}
+
+.footer-list-image {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-box {
+    padding: 40px;
+}

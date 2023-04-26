@@ -1,0 +1,25 @@
+.logo {
+    width: 120px;
+}
+
+.nav-bar {
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    height: 70px;
+}
+
+.header-option {
+    font-size: 16px;
+    text-decoration: none;
+    color: darkslategrey;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header-option:hover {
+    color: darkslategrey;
+}
+
+.active>a {
+    font-weight: bold;
+}

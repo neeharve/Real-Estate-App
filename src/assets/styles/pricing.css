@@ -1,0 +1,66 @@
+.pricing-container {
+    min-height: 80vh;
+    max-width: 1200px;
+    margin: auto;
+    width: 95%;
+    padding: 20px 0px;
+}
+
+.feature-name {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.feature-price {
+    font-size: 48px !important;
+    font-weight: bold !important;
+}
+
+.feature-details {
+    font-size: 16px !important;
+    margin-bottom: 40px !important;
+}
+
+.feature {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.feature::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+}
+
+.feature-available::before {
+    background-image: url("../images/available.png");
+}
+
+.feature-not-available::before {
+    background-image: url("../images/not_available.png");
+}
+
+.feature-button {
+    border-radius: 50px !important;
+    width: 100%;
+    padding: 15px 0 !important;
+}
+
+.best-value-button {
+    border-radius: 50px !important;
+    background-color: coral !important;
+    border-color: coral !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.price-card {
+    border: 1px solid #ccc;
+    box-shadow: 1px 4px 4px #ccc;
+}
